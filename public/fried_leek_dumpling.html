@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <link rel="stylesheet" type="text/css" href="/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script src="https://kit.fontawesome.com/b7002cebe4.js" crossorigin="anonymous"></script>
+    
+    
+    <title>Xiaolin&#39;s Cookbook | 韭菜盒子</title>
+</head><body><div id="alert" class="notification is-danger is-hidden" style="position: absolute; bottom: 0; right: 0; z-index:99">
+    Alert
+</div><nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-brand">
+            
+                <img src="images/logo.png" width="200" height="50">
+            
+        </a>
+        <a id="navBarButton" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navBarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            
+            <a class="navbar-item" href="/">
+            
+            <i class="fas fa-home pr-2"></i> 
+            Home</a>
+            
+            <a class="navbar-item" href="/tags/">
+            
+            <i class="fas fa-tags pr-2"></i> 
+            Categories</a>
+            
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <form class="field has-addons">
+                    <div class="control">
+                        <input class="input" id="searchTerm" type="text" value="" placeholder="Search Term...">
+                    </div>
+                    <div class="control">
+                        <button id="searchButton" class="button is-secondary">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</nav><div id="searchResults" class="section is-hidden">
+    <h4 class="title is-3"> Search results </h4>
+    <div id="searchResultsCol" class="columns is-multiline">
+        
+    </div>
+</div>
+<script id="search-result-template" type="text/x-js-template">
+    <div class="column is-one-quarter">
+        <div class="result" id="summary-${key}">
+            <div class="card" style="border-radius: 1%;">
+    <div class="card-image">
+        <figure class="image is-4by3">
+        <img style="border-radius: 3%;" src="${image}" alt="Placeholder image">
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media-content">
+            <p class="title is-4 has-text-centered">${title}</p>
+            <p class="subtitle is-6 "><em></em></p>
+        </div>
+        <div class="content">
+            <p class="is-small">${snippet}</p>
+        </div>
+        <div class="card-footer">
+            <a href="${link}" class="card-footer-item button is-primary">View Recipe</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</script><div id="content">
+<div class="section">
+  <div class="columns is-centered">
+    <div class="column is-full-mobile is-half-desktop"
+      style="border-radius: 1%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)">
+      <div class="is-flex"
+        style="justify-content: center; border-radius: 3%; background-color: #f0f5f1; position: relative;">
+        <figure class="image">
+          
+          <img style="border-radius: 3%;" src="/img/leek_dumpling.jpeg" alt="Placeholder image">
+        </figure>
+        <div id="printButton" style="position: absolute; bottom: 0; right: 0;" class="is-rounded">
+          <a href="/print/fried_leek_dumpling/print.html" target="_blank"><i
+              class="fas fa-print fa-3x"></i></a>
+        </div>
+      </div>
+
+      <div class="container has-text-centered">
+        <h1 class="title is-bold"> 韭菜盒子</h1>
+        <p class="subtitle is-italic"> Xiaolin Zhang</p>
+        <div class="container has-text-right">
+          
+
+<i class="far fa-calendar-alt"></i>
+<time datetime="01-24-2022">Jan 24, 2022</time>
+
+<i class="fas fa-tags"></i>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/%E4%B8%BB%E9%A3%9F">主食</a>
+
+
+<a class="btn btn-sm btn-outline-dark tag-btn" href="/tags/%E7%82%B9%E5%BF%83">点心</a>
+
+
+        </div>
+        <hr>
+      </div>
+      <div class="container has-text-centered">
+        <div class="columns is-mobile is-multiline">
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-concierge-bell fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Servings</p>
+        <div></div>
+        6 Servings
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-hourglass-half fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Prep time</p>
+        <div></div>
+        90 Minutes
+    </div>
+    <div class="column is-half-mobile" style="border-right: 1px solid #dbdbdb">
+        <i class="fas fa-temperature-high fa-lg"></i>
+        <div></div>
+        
+            <p class="has-text-weight-bold is-size-6">Cooking Time</p>
+        
+        <div></div>
+        
+            20 Minutes
+        
+    </div>
+    <div class="column is-half-mobile">
+        <i class="fas fa-fire fa-lg"></i>
+        <div></div>
+        <p class="has-text-weight-bold is-size-6">Calories</p>
+        <div></div>
+        180 Kcal
+    </div>     
+</div>
+      </div>
+      <hr>
+      <p class="subtitle is-italic"> 以韭菜，鸡蛋和面作为主要食材的传统美食</p>
+      <div class="content">
+        <h2 id="ingredients">Ingredients</h2>
+<ul>
+<li>
+<p>面皮(6个):</p>
+<ul>
+<li>60g 开水 + 225g 面粉(All purpose flour)</li>
+<li>75g 温水 + 1/8 teaspoon 酵母(yeast)</li>
+<li>1 tablespoon 橄榄油</li>
+<li>1/8 teaspoon 盐</li>
+</ul>
+</li>
+<li>
+<p>韭菜馅儿:</p>
+<ul>
+<li>240g 韭菜</li>
+<li>3 Eggs + 1/4 teaspoon salt</li>
+<li>20g 食用油用以炒鸡蛋</li>
+<li>1 捆粉丝</li>
+<li>2 tablespoon 香油</li>
+<li>1 tablespoon 蚝油</li>
+<li>1 teaspoon 生姜泥</li>
+<li>1 teaspoon 白胡椒粉</li>
+<li>1 teaspoon 五香粉</li>
+<li>适量食盐</li>
+</ul>
+</li>
+</ul>
+<h2 id="directions">Directions</h2>
+<ol>
+<li>用60g开水将225g面粉烫开；</li>
+<li>将酵母加入75g室温水中搅拌均匀后与面团混合，加入油盐后室温放置20分钟；</li>
+<li>揉搓面团1分钟后，室温放置1个小时；</li>
+<li>制作馅料：将鸡蛋打散后加盐翻炒至金黄，捞出备用；</li>
+<li>粉丝在温水中泡软后切成小段；</li>
+<li>将粉丝，鸡蛋和调味料混合均匀；</li>
+<li>面团发酵成功后，将面上案搓长条，揪成相同数量的6个剂子，把皮面剂子压成圆皮;</li>
+<li>用手压扁，拿擀面杖向一个方向擀成长方形，再卷起用手压扁，再擀开，这样反复擀卷两次，最后卷成6厘米长的卷，用刀在中间切成相等的两段，刀胡向下，在案上竖起，用手压扁，成两张直径约8厘米的花纹圆片。</li>
+<li>然后将制成的馅包入圆片中间，再用手将边对折捏成月牙形</li>
+<li>用平底锅低温加盖煎烤至两面金黄。</li>
+</ol>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+        </div><p class="footer text-center">Using <a href="https://github.com/deranjer/hugo-cookbook" target="_blank">Hugo Cookbook Theme</a>, <a href="https://fontawesome.com/license/free" target="_blank">Font Awesome Icons</a> and <a href="https://bulma.io/" target="_blank">Bulma CSS</a></p><script src="/js/umbrella.min.js"></script>
+<script src="/js/custom.js"></script>
+<script src="/js/menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+
+</body>
+</html>

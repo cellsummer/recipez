@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Xiaolin&#39;s Cookbook</title>
+    <link>/tags.html</link>
+    <description>Recent content in Tags on Xiaolin&#39;s Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>甜品</title>
+      <link>/tags/%E7%94%9C%E5%93%81.html</link>
+      <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E7%94%9C%E5%93%81.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>主食</title>
+      <link>/tags/%E4%B8%BB%E9%A3%9F.html</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E4%B8%BB%E9%A3%9F.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>点心</title>
+      <link>/tags/%E7%82%B9%E5%BF%83.html</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E7%82%B9%E5%BF%83.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
