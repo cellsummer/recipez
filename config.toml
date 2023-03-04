@@ -1,6 +1,6 @@
 realativeURLs = true
 uglyURLs = true
-baseURL = '/'
+baseURL = 'https://cellsummer.github.io/cookbook/'
 languageCode = "en-us"
 title = "Xiaolin's Cookbook"
 theme = "cookbook"
