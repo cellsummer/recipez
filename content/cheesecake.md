@@ -18,18 +18,18 @@ calories:  200
 
 ## Ingredients
 
-- 600g cream cheese
-- 225g sugar
+- 250g cream cheese
+- 60g sugar
 - A pinch of salt
-- 4 eggs
-- 300g heavy cream
+- 2 eggs
+- 150g heavy cream
 - 1 tsp vanilla extract
-- 40g flour
+- 5g flour
 
 ## Directions
 
 1. Put all ingredients in a mixer and mix on medium speed until fully combined and smooth
 2. Set on a baking sheet inside a cake pan.
-3. Preheat the oven to 200(F) degrees 
-4. Bake for 50 minutes
+3. Preheat the oven to 444(F) degrees 
+4. Bake for 30 minutes
 5. Let the cheesecake cool in the pan at room temperature for 3 hours 

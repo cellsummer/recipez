@@ -1,6 +1,6 @@
 realativeURLs = true
-uglyURLs = true
-baseURL = 'https://cellsummer.github.io/cookbook/'
+# uglyURLs = true
+baseURL = 'https://cellsummer.github.io/cookbook'
 languageCode = "en-us"
 title = "Xiaolin's Cookbook"
 theme = "cookbook"
@@ -17,7 +17,7 @@ defaultImageWidth = 512 # default recipe image width
 # The default height/width are the recommended bulma size (112W X 28H), best to get your logo as close as possible to that
 # The site will SCALE your image, but will not force a stretch, so you may need to stretch it in external tool before using.
 [params.logo]
-fileName = "images/logo.png"
+fileName = "https://cellsummer.github.io/cookbook/images/logo.png"
 # fileName = "/Users/wfang/Downloads/logo.webp"
 # fileName = "images/logo-alt.png" #alt logo if you are interested
 height =  50
