@@ -35,5 +35,6 @@ calories:  180
 5. Fold
 6. Rest for another 60 minutes
 7. Shape the dough as desired 
-8. Preheat the oven to 400(F) degrees 
-9. Bake for 25 mins 
+8. Rest for another 60 minutes
+9. Preheat the oven to 400(F) degrees 
+10. Bake for 25 mins 
